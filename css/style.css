@@ -70,7 +70,9 @@ button:focus {
 	text-decoration: none;
 	outline: none;
 }
-
+.course-slied .slick-slide{
+    width: 230px!important;
+}
 a:focus,
 a:hover{
 	text-decoration: none;
@@ -482,7 +484,9 @@ p {
 
 /*===== Header Menu =====*/
 
-.navigation{}
+.navigation{
+    background-color: #0074ff;
+}
 
 .navigation.sticky {
 	position: fixed;
@@ -537,7 +541,7 @@ p {
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    color: #07294d;
+    color: #ffffff;
     text-transform: uppercase;
     -webkit-transition: all 0.4s linear;
     transition: all 0.4s linear;
@@ -634,7 +638,7 @@ p {
 
 .right-icon ul li a{
     font-size: 18px;
-    color: #07294d;
+    color: #FFF;
     position: relative;
     padding-right: 7px;
 }
